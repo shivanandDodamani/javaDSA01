@@ -15,3 +15,15 @@ public class Main {
        String friend = neighbour;
    }
 }
+
+
+
+Data Types
+Data types are declarations for variables. This determines the type and size of  data associated with variables which is essential to know since different data  types occupy different sizes of memory.
+
+There are 2 types of Data Types :
+Primitive Data types : to store simple values
+Non-Primitive Data types : to store complex values
+
+
+
