@@ -1,4 +1,4 @@
-package lec1;
+package video1;
 
 public class lec2 {
     // I am learning variables here 

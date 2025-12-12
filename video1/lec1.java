@@ -1,4 +1,4 @@
-package lec1;
+package video1;
 public class lec1 {
     public static void main(String[] args){
         System.out.println("Hello Wolrd ");
