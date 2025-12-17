@@ -1,34 +1,16 @@
 package video4;
 
+import java.util.*;
 
 public class que {
-    
     public static void main (String args[]) {
+        Scanner sc = new Scanner (System.in);
 
-        // counter++ => counter = counter + 1
+        int n = sc.nextInt();
 
-      //  for (int counter = 0; counter < 11; counter++) {
-         //   System.out.print(counter+" ");
-       // }
-            // we can write the loop in another way is like 
-           //for (int i = 0; i < 11; i++) {
-           // System.out.println(i+" "); 
-          // }
-
-         // int i = 0;
-          //while (i < 11) {
-           // System.out.println(i);
-           // i = i + 1;
-         // }
-
-        // int i = 0;
-        // do {
-         //   System.out.println(i);
-        //    i = i+1;
-       // } while ( i < 11) ; 
-
-       
-            
-         
+        for ( int i = 2; i < 11; i++ ){
+            System.out.println(i*n);
+        }
     }
+    
 }

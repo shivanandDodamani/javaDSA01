@@ -8,9 +8,9 @@ public class ex {
         int x = sc.nextInt();
 
         if(x % 2 == 0) {          // % this operator is used to ckeck remainder
-            System.out.print("even");
+            System.out.print("its prime ");
         } else {
-            System.out.print("odd");
+            System.out.print("its not prime ");
         }
         sc.close();
     }
