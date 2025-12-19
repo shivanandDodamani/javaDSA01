@@ -18,18 +18,18 @@ public class calculator {
             case 3:  System.out.println(a*b);
                 break;
             case 4:if (b==0) {
-                System.out.print("invalid Divison");
+                System.out.print("invalid division");
             } else {
                 System.out.println(a/b);
             }
             break;
             case 5: if (b==0) {
-                System.out.println("invalid Divison");
+                System.out.println("invalid division");
             } else {
                 System.out.println(a%b);
             }
             break;
-            default:System.out.println("invalid opretor");
+            default:System.out.println("invalid operator");
             
         }
         
