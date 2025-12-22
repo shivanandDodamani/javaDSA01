@@ -1,18 +1,46 @@
-package video3;
+public class Solutions {
+    public static void main(String args[]) {
+        int n = 4;
 
-import java.util.*;
 
-public class ex {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int x = sc.nextInt();
+        //upper part
+        for(int i=1; i<=n; i++) {
+            for(int j=1; j<=i; j++) {
+                System.out.print("*");
+            }
 
-        if(x % 2 == 0) {          // % this operator is used to ckeck remainder
-            System.out.print("its prime ");
-        } else {
-            System.out.print("its not prime ");
+
+            int spaces = 2 * (n-i);
+            for(int j=1; j<=spaces; j++) {
+                System.out.print(" ");
+            }
+
+
+            for(int j=1; j<=i; j++) {
+                System.out.print("*");
+            }
+            System.out.println();
         }
-        sc.close();
+
+
+        //lower part
+        for(int i=n; i>=1; i--) {
+            for(int j=1; j<=i; j++) {
+                System.out.print("*");
+            }
+
+
+            int spaces = 2 * (n-i);
+            for(int j=1; j<=spaces; j++) {
+                System.out.print(" ");
+            }
+
+
+            for(int j=1; j<=i; j++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
     }
-    
 }
+
