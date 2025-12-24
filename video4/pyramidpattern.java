@@ -1,4 +1,4 @@
-package video5;
+package video4;
 
 public class pyramidpattern {
     public static void main(String args[]) {

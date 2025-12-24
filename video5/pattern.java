@@ -1,20 +1,50 @@
 package video5;
 
-public class pattern {
-    public static void main(String[] args) {
-        int n = 4;
-        for (int i = 1; i <= n; i++) {
-            for (int j = 1; j <= i; j++) {
+import java.util.*;
 
-               // if (i==1 || j==1 || i==n|| j==m) {
-                    System.out.print("* ");
-                
-               // }else {
-               // }
-                
+public class pattern {
+    public static void main(String args[]) {
+        int n = 5;
+
+        // upper half
+        for (int i = 1; i<=n; i++) {
+            for (int j = 1; j<=i; j++) {
+                System.out.print("*");
+            }
+
+
+            // spaces
+            int spaces = 2 * (n - i);
+            for (int j = 1; j<= spaces; j++) {
+                System.out.print(" ");
+            }
+
+            // 2nd patt
+            for (int j = 1; j<=i; j++) {
+                System.out.print("*");
             }
             System.out.println();
         }
+
+        // lower half
+        for (int i = n ; i>=1; i--) {
+            for (int j = 1; j<=i; j++) {
+                System.out.print("*");
+            
+            }
+
+            // spaces
+            int spaces = 2 * (n - i);
+            for (int j = 1; j<= spaces; j++) {
+                System.out.print(" ");
+            }
+
+            // 2nd patt
+            for (int j = 1; j<=i; j++) {
+                System.out.print("*");
+            }
+            System.out.println();
     }
     
+}
 }
