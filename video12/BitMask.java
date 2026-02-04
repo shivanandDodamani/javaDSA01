@@ -3,7 +3,7 @@ package video12;
 public class BitMask {
   public static void main(String args[]){
         int n = 5;
-        int pos = 2;
+        // removed unused variable pos
         int bitMask = 1<<n;
 
         if((bitMask | n) == 0){
