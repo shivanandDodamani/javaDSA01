@@ -7,16 +7,22 @@ package practiseproblems;
 import java.util.*;
 
 public class age {
-    public static void ageofVoting( int age) {
+    public static boolean ageofVoting( int age) {
         if (age >= 18) {
-            System.out.println("you are eligible to vote");
+            return true;
         } else {
-            System.out.println("you are not eligible to vote");
+            return false;
         }
     }
     public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
+        System.out.println("Enter yor age");
         int age = sc.nextInt();
-        ageofVoting(+ age);
+        if(ageofVoting(age)){
+            System.out.println("you are eligible to vote");
+        }else{
+            System.out.println("you are not eligible to vote");
+        }
+        sc.close();
     }
 }
