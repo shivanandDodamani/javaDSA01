@@ -11,6 +11,7 @@ public class circumference {
         Scanner sc = new Scanner(System.in);
         double r = sc.nextDouble();
         circumferenceofCircle((int)r);
+        sc.close();
     }
     
 }
