@@ -14,5 +14,6 @@ public class avg {
       int b = sc.nextInt();
       int c = sc.nextInt();
        avarageof3Numbers(a, b, c);
+       sc.close();
     }
 }
