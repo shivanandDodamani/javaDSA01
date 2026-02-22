@@ -18,7 +18,7 @@ public class sumofodd {
         int n = sc.nextInt();
         sumofOdd(n);
             
-        sc.next();
+        sc.close();
     }
     
 }

@@ -8,6 +8,7 @@ public class lastques {
        System.out.println("Press 1 to continue & 0 to stop");
        Scanner sc = new Scanner(System.in);
        int input = sc.nextInt();
-    
+    sc.close();
 }
+
 }
