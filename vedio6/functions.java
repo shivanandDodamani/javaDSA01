@@ -20,7 +20,7 @@ public class functions {
             Scanner sc = new Scanner(System.in);
             int n = sc.nextInt();
             printFactorial(n);
-            
+           sc.close(); 
         }
     
     
