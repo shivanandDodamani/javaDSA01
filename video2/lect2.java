@@ -8,7 +8,7 @@ public class lect2 {
         Scanner sc = new Scanner(System.in);
         
 
-
+        sc.close();
     }
 
     
