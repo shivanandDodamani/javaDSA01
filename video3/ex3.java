@@ -13,6 +13,7 @@ public class ex3 {
             System.out.println("how are you");
         } else {
             System.out.println("invallid button");
+            sc.close();
         }
 
 
