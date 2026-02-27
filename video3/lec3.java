@@ -12,7 +12,8 @@ public class lec3 {
         if (age > 18) {
             System.out.println("Adult");
         } else {
-            System.out.println("Not Adult");
+           System.out.println("Not Adult");
+            sc.close();
         }
 
     }
