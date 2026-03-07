@@ -29,6 +29,7 @@ public class calculatordemo {
                    }
 	    break; 
            default : System.out.println("Invalid Operator");
+           sc.next();
        }
    }
 
