@@ -1,7 +1,5 @@
 package video5;
 
-import java.util.*;
-
 public class pattern {
     public static void main(String args[]) {
         int n = 5;
@@ -44,7 +42,7 @@ public class pattern {
                 System.out.print("*");
             }
             System.out.println();
-    }
-    
+          
+    }    
 }
 }
