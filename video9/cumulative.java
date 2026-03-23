@@ -15,7 +15,7 @@ public class cumulative {
             
         }
         System.out.println(totLength);
-
+        sc.close();
     }
     
 }
