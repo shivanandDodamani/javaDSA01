@@ -1,14 +1,21 @@
 package video12;
 
-public class bits {
-    public static void main(String args[]){
-        int n = 5;
-        int pos = 1;
-        int bitMask = 1<<pos;
+import java.util.*;
 
-        int newNumber = bitMask | n;
-        System.out.println(newNumber);
+public class bits {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner (System.in);
+
+        System.out.print("Enter a number ");
+        int n = sc.nextInt();
+
+        if(n % 2 == 0) {
+            System.out.println("the number is even");
+        }else {
+             System.out.println("the number is odd");
+            }
+         sc.close();
+
     }
-    
-    
 }
+    
