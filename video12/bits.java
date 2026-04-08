@@ -10,9 +10,9 @@ public class bits {
         int n = sc.nextInt();
 
         if(n % 2 == 0) {
-            System.out.println("the number is even");
+            System.out.println("the number is not prime ");
         }else {
-             System.out.println("the number is odd");
+             System.out.println("the number is  prime");
             }
          sc.close();
 
