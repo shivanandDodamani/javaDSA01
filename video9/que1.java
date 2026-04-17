@@ -16,6 +16,7 @@ public class que1 {
             }
         }
         System.out.println(result);
+        sc.close();
     }
     
 }
