@@ -21,7 +21,7 @@ public class que2 {
             }
         }
         System.out.println(username);
-
+        sc.close();
     }
     
 }
