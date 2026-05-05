@@ -30,7 +30,7 @@ public class ques4 {
         }else {
             System.out.println("the sort is not an ascending order");
         }
-
+        sc.close();
     }
     
 }
