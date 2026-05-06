@@ -17,7 +17,7 @@ public class ques3 {
         for (int i = 0; i < names.length; i++){
             System.out.print(" name " + (i+1) + " is :" + names[i]  );
         }
-
+        sc.close();
     } 
     
 }
