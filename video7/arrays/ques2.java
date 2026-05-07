@@ -26,7 +26,7 @@ public class ques2 {
         }
         System.out.println("the minimum value is " + min);
         System.out.println("the maximum value is " + max);
-
+        sc.close();
     }
     
 }
