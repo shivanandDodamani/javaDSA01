@@ -19,6 +19,7 @@ public class ques1 {
                 System.out.println("x found at index" + i);
             }
         }
+        sc.close();
         
     }
     
