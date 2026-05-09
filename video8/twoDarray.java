@@ -27,4 +27,5 @@ public class twoDarray {
             System.out.println();
         }
     }
+    sc.close();
 }
