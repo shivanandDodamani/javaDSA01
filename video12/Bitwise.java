@@ -12,6 +12,7 @@ public class Bitwise {
         else {
             System.out.println("bit is non zero");
         }
+        
     }
     
 }
