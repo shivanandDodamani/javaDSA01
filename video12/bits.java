@@ -10,8 +10,6 @@ public class bits {
 
     int newNumber = bitMask | n;
     System.out.print(newNumber);
-
-
     }
 }
 
