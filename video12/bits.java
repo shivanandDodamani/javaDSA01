@@ -11,6 +11,9 @@ public class bits {
 
     int newNumber = notBitMask & n;
     System.out.print(newNumber);
+
+
+
     }
 }
 
