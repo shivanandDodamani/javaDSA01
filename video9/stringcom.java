@@ -1,7 +1,5 @@
 package video9;
 
-import java.util.*;
-
 public class stringcom {
     public static void main(){
         String name1 = "Shivanand"; 
